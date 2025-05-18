@@ -76,7 +76,7 @@ button {
 }
 
 button:hover {
-  background: #e230d9;
+  background: #c20fb9;
 }
 
 a:hover {
@@ -141,7 +141,7 @@ a:hover {
 
 /* Hover effect on the module container */
 .clickable-container:hover {
-  background-color: #fc5bef94;
+  background-color: #f117df70;
   /* Lighter purple when hovered */
 }
 
