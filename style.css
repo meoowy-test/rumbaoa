@@ -54,7 +54,7 @@ body {
   margin: 80px auto;
   background: #fff;
   padding: 30px;
-  box-shadow: 0 0 10px rgba(221, 214, 214, 0.945);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
@@ -69,14 +69,14 @@ button {
 }
 
 button {
-  background: #1E3A8A;
+  background: #007BFF;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background: #1E3A8A;
+  background: #0056b3;
 }
 
 a:hover {
@@ -85,7 +85,7 @@ a:hover {
 
 .header {
   background-color: #1E3A8A;
-  /* purple */
+  /* Navy blue */
   color: #fff;
   padding: 15px 30px;
   display: flex;
@@ -103,7 +103,7 @@ a:hover {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color:rgba(255, 255, 255, 0.637);
+  background-color: rgba(255, 255, 255, 0.85);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,13 +141,13 @@ a:hover {
 
 /* Hover effect on the module container */
 .clickable-container:hover {
-  background-color: #1E3A8A;
-  /* Lighter purple when hovered */
+  background-color: #3744b8;
+  /* Lighter blue when hovered */
 }
 
 /* Styling for the link to ensure the entire container is clickable */
 a {
-  color: rgba(245, 239, 239, 0.733);
+  color: white;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
