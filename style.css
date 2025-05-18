@@ -126,7 +126,7 @@ a:hover {
   /* Width of the container */
   height: 220px;
   /* Height of the container */
-  background-color: #fc5befa8;
+  background-color: #fc5bef94;
   color: white;
   padding: 20px;
   border-radius: 12px;
@@ -141,8 +141,8 @@ a:hover {
 
 /* Hover effect on the module container */
 .clickable-container:hover {
-  background-color: #fc5befa8;
-  /* Lighter blue when hovered */
+  background-color: #fc5bef94;
+  /* Lighter purple when hovered */
 }
 
 /* Styling for the link to ensure the entire container is clickable */
