@@ -84,7 +84,7 @@ a:hover {
 }
 
 .header {
-  background-color: #e655c6;
+  background-color: #fc5bee;
   /* purple */
   color: #fff;
   padding: 15px 30px;
@@ -103,7 +103,7 @@ a:hover {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color:rgba(3, 3, 3, 0.85);
+  background-color:rgba(255, 255, 255, 0.781);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,7 +126,7 @@ a:hover {
   /* Width of the container */
   height: 220px;
   /* Height of the container */
-  background-color: #a31985;
+  background-color: #fc5bee;
   color: white;
   padding: 20px;
   border-radius: 12px;
@@ -141,13 +141,13 @@ a:hover {
 
 /* Hover effect on the module container */
 .clickable-container:hover {
-  background-color: #a31985;
+  background-color: #fc5bee;
   /* Lighter blue when hovered */
 }
 
 /* Styling for the link to ensure the entire container is clickable */
 a {
-  color: white;
+  color: rgba(8, 8, 8, 0.89);
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
