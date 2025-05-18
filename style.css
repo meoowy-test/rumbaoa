@@ -69,14 +69,14 @@ button {
 }
 
 button {
-  background: #672eec;
+  background: #4522e0;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background: #cf47f8;
+  background: #e230d9;
 }
 
 a:hover {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .header {
-  background-color: #d127c3;
+  background-color: #4522e0;
   /* Navy blue */
   color: #fff;
   padding: 15px 30px;
