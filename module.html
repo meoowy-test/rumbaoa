@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Module 1 - HTML Basics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+    }
+
+    .module-header {
+      background-color: #1E3A8A;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .module-container {
+      max-width: 800px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .module-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .question {
+      margin-bottom: 20px;
+    }
+
+    .question label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .question input[type="text"],
+    .question textarea,
+    .question select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .question textarea {
+      resize: vertical;
+      height: 100px;
+    }
+
+    .submit-btn {
+      background-color: #1E3A8A;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover {
+      background-color: #3744b8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="module-header">
+    <h1>Module 1: Introduction to HTML</h1>
+  </div>
+
+  <div class="module-container">
+    <div class="module-title">Answer the questions below:</div>
+
+    <form action="submit.html" method="POST">
+      <div class="question">
+        <label for="name">1. What is your name?</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="question">
+        <label for="q1">2. What does HTML stand for?</label>
+        <input type="text" id="q1" name="q1" required>
+      </div>
+
+      <div class="question">
+        <label for="q2">3. Write a short paragraph about HTML's purpose:</label>
