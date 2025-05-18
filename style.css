@@ -69,14 +69,14 @@ button {
 }
 
 button {
-  background: #ca34be;
+  background: #672eec;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background: #0056b3;
+  background: #cf47f8;
 }
 
 a:hover {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .header {
-  background-color: #fd28eb;
+  background-color: #d127c3;
   /* Navy blue */
   color: #fff;
   padding: 15px 30px;
@@ -126,7 +126,7 @@ a:hover {
   /* Width of the container */
   height: 220px;
   /* Height of the container */
-  background-color: #1E3A8A;
+  background-color: #3330e6;
   color: white;
   padding: 20px;
   border-radius: 12px;
